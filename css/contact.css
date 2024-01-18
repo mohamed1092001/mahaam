@@ -1,0 +1,139 @@
+.bg-165865 {
+  background-color: #165865 !important;
+}
+nav {
+  background-color: #165865;
+  position: sticky;
+}
+.contact-banner {
+  height: fit-content;
+  padding: 15vh 0px !important;
+  background-image: url(../img/contact-banner.jpg);
+  background-size: cover;
+  background-position: center;
+
+  box-shadow: inset 0px 0px 300px #000;
+}
+
+.contact-banner h1 {
+  color: #fff;
+  padding-right: 5% !important;
+}
+
+
+.contact-con {
+  background-color: #f0f0f0;
+  padding: 10vh 0px !important;
+}
+
+.contact-con h2 {
+  text-align: center;
+  margin-bottom: 50px !important;
+  position: relative;
+}
+
+.contact-con h2::after{
+  content: " ";
+  width: 60px;
+  height: 3px;
+  background-color: #2794aa;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  width: 300px;
+  margin: 1% 0px !important;
+  background-color: #f6f6f6;
+  box-shadow: 0px 0px 40px rgba(175, 175, 175, 0.289);
+  border-radius: 2px;
+  font-size: 1.1rem;
+  padding: 10px !important;
+}
+
+form input[type="submit"] {
+  width: 200px;
+  margin-top: 20px !important;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+form textarea {
+  width: 300px;
+  min-height: 300px;
+  margin: 1% 0px !important;
+  background-color: #f6f6f6;
+  border-radius: 2px;
+  font-size: 1.1rem;
+  padding: 10px !important;
+  resize: none;
+  box-shadow: 0px 0px 40px rgba(175, 175, 175, 0.289);
+}
+
+.btn {
+  background-color: #165865 !important;
+  border: #165865 !important;
+  transition: 0.1s !important;
+}
+
+.btn:hover {
+  background-color: #2794aa !important;
+  border: #2794aa !important;
+}
+/* ######################## */
+
+.contact-con .son {
+  width: 90%;
+  margin: auto !important;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-con .son > div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-con .son .location {
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 50%;
+  border: solid #2794aa46 1px;
+  box-shadow: 0px 0px 40px rgba(175, 175, 175, 0.493);
+}
+.contact-con .son .location iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-con .contact-bar {
+  background-color: #165865;
+}
+
+@media (min-width: 0px) and (max-width: 900px) {
+  .contact-con .son > div {
+    width: 100%;
+  }
+
+  .contact-con .location {
+    margin-top: 3rem !important;
+    width: 80% !important;
+  }
+
+  .contact-con .location iframe {
+    height: 300px !important;
+  }
+}

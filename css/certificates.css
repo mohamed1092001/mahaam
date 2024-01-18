@@ -1,0 +1,112 @@
+.slide-1 {
+  background-image: url("../img/iso-banner (1).jpg");
+}
+.slide-2 {
+  background-image: url("../img/iso-banner (2).jpg");
+}
+.slide-3 {
+  background-image: url("../img/iso-banner (3).jpg");
+}
+/* ################## */
+
+
+.certificates .son {
+  background-color: #2693a9;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5% 7% !important;
+  overflow: hidden;
+  
+}
+
+.certificates .son .certificate {
+  text-align: center;
+  color: #fff;
+  background-color: #34c8e5;
+  margin: 1.5% !important;
+  position: relative;
+  padding: 2rem !important;
+  transition: 0.4s;
+  transition-delay: 0.1s;
+  cursor: none;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificates .son .certificate .heading {
+  font-size: 1.3rem;
+}
+.certificates .son .certificate p {
+  position: relative;
+  z-index: 33;
+}
+
+.certificates .son .certificate span {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  transition: 0.4s;
+}
+
+.certificates .son .certificate .top {
+  width: 40px;
+  height: 4px;
+  top: 0%;
+  left: 0%;
+}
+.certificates .son .certificate .left {
+  height: 40px;
+  width: 4px;
+  top: 0%;
+  left: 0%;
+}
+.certificates .son .certificate .bottom {
+  width: 40px;
+  height: 4px;
+  bottom: 0%;
+  right: 0%;
+}
+.certificates .son .certificate .right {
+  width: 4px;
+  height: 40px;
+  bottom: 0%;
+  right: 0%;
+}
+
+.certificates .son .certificate:hover span {
+  width: 100%;
+  height: 100%;
+}
+
+.certificates .son .certificate:hover {
+  color: #165865;
+}
+/* ############################### */
+
+@media (min-width: 0px) and (max-width: 800px) {
+  .certificates .son {
+    padding: 1rem !important;
+  }
+
+  .certificates .son .certificate {
+    width: 45%;
+    margin: 2.5% !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .certificates .son .certificate {
+    width: 100%;
+    margin: 2.5% !important;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  .certificates .son .certificate {
+    width: 45%;
+    margin: 2.5% !important;
+  }
+}

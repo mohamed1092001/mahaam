@@ -1,0 +1,104 @@
+.slide-1 {
+  background-image: url("../img/service (1).jpg");
+}
+.slide-2 {
+  background-image: url("../img/service (2).jpg");
+}
+.slide-3 {
+  background-image: url("../img/service (3).jpg");
+}
+/* ### */
+nav {
+  background-color: #165865;
+}
+main {
+  max-height: 100vh !important;
+}
+
+main > div {
+  height: 100% !important;
+}
+
+.services {
+  padding: 5rem 0px !important;
+}
+
+.services .son {
+  width: 85%;
+  margin: auto !important;
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.services .son .service {
+  width: 30%;
+  text-align: center;
+  background-color: #217788;
+  color: #fff;
+  padding: 2rem 1rem !important;
+  border-radius: 3px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.41);
+  margin-bottom: 3% !important;
+}
+
+.service svg {
+  fill: #165865;
+}
+.service img {
+  width: 80px;
+}
+
+.service .heading {
+  font-size: calc(1rem + 0.6vw) !important;
+  margin: 0rem 0px !important;
+}
+
+.service p {
+  margin: 1.5rem 0px !important;
+}
+
+.service a {
+  display: block;
+  background-color: #2eaec8;
+  max-width: 60%;
+  margin: auto !important;
+  color: #fff;
+  border-radius: 2px;
+  padding: 0.7rem 0px !important;
+}
+
+.service a:hover {
+  background-color: #34c8e5;
+}
+
+.last {
+  flex-grow: 1;
+}
+
+.last a{
+  max-width: 30%;
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+  .services .son {
+    width: 70% !important;
+  }
+  .services .son .service {
+    width: 100% !important;
+    margin-bottom: 9% !important;
+  }
+  
+   .last a{
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1050px) {
+  .services .son .service {
+    width: 46% !important;
+    margin-bottom: 5% !important;
+  }
+  
+}
